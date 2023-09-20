@@ -1,4 +1,5 @@
-* {
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(176, 176, 176);
     font-size: 1em;
 }
@@ -8,10 +9,26 @@ h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+#email_input {
+    padding: 5px;
+}
+
+#phone_number_input {
+    padding: 5px;
+}
+
+#date_birth_input {
+    padding: 5px;
+}
+#submit_button {
+    padding: 5px;
+}
+
 #form {
-    border: 0.5em solid black;
-    padding: 15px; 
+    border: 0.25em solid black;
+    padding: 10px; 
     margin: auto;
     width:75%;
     text-align: center;
+    background: radial-gradient(90deg, rgba(255,255,255,1) 0%, rgba(176,176,176,0) 100%);
 }
