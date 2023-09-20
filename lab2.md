@@ -8,7 +8,7 @@ Be sure to:
 * Use the best HTML `<input>` types
 * Use additional HTML `<input>` attributes to maximize user experience
 * Use semantically associated `<label>` tags
-* Use <form> attributes action, method, and autocomplete
+* Use &lt;form&gt; attributes action, method, and autocomplete
 
 Then, in the css folder, do the following:
 

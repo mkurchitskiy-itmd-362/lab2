@@ -1,4 +1,5 @@
 body {
+    margin-top: 5%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(176, 176, 176);
     font-size: 1em;
@@ -20,15 +21,25 @@ h1 {
 #date_birth_input {
     padding: 5px;
 }
+
 #submit_button {
     padding: 5px;
 }
 
 #form {
     border: 0.25em solid black;
+    display: block;
     padding: 10px; 
     margin: auto;
     width:75%;
     text-align: center;
-    background: radial-gradient(90deg, rgba(255,255,255,1) 0%, rgba(176,176,176,0) 100%);
+    background: radial-gradient(rgba(255,255,255,1) 0%, rgba(176,176,176,0) 100%);
+}
+
+@media only screen and (min-width: 480px) {
+    #form{
+        width: 80%;
+        text-wrap: nowrap;
+        display: block;
+    }
 }
